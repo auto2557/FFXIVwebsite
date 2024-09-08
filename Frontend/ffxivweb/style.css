@@ -21,21 +21,26 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Align items to the left */
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-    font-size: 18px;
+    display: flex;
+    align-items: center; /* Center the icon vertically */
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.nav-icon {
+    width: 25%;  /* Adjust the width for clearer visibility */
+    height: auto; /* Maintain aspect ratio for better clarity */
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.5)); /* Add shadow for better contrast */
+    border-radius: 8px; /* Optional: make edges rounder if desired */
 }
 
 /* Main Content */
@@ -84,7 +89,6 @@ ul {
 }
 
 li {
-    background-color: #f8f9fa;
     margin: 10px 0;
     padding: 10px;
     border-left: 4px solid #007bff;
