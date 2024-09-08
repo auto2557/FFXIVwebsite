@@ -488,18 +488,18 @@ function showBosses(expansion) {
     
     let listHtml = '<ul>';
     bossesToShow.forEach((boss, index) => {
-        listHtml += `<li><a href="#" onclick="showBossDetails('${expansion}', ${index})">${boss.name}</a></li>`;
+        listHtml += `<li><a href="#boss-details" onclick="showBossDetails('${expansion}', ${index})">${boss.name}</a></li>`;
     });
     listHtml += '</ul>';
     
     bossList.innerHTML += listHtml;
-}
 
+    // Scroll to the boss list section
+    bossList.scrollIntoView({ behavior: 'smooth' });
+}
 
 function showBossDetails(expansion, index) {
     const bossDetails = document.getElementById('boss-details');
-    
-
     bossDetails.innerHTML = '';
     
     const boss = bosses[expansion][index];
@@ -510,7 +510,6 @@ function showBossDetails(expansion, index) {
         <p>${boss.description}</p>
     `;
     
-
     if (boss.skills) {
         let skillsHtml = '<h4>Skills:</h4><ul>';
         boss.skills.forEach(skill => {
@@ -520,4 +519,7 @@ function showBossDetails(expansion, index) {
         
         bossDetails.innerHTML += skillsHtml;
     }
+
+    // Scroll to the boss details section
+    bossDetails.scrollIntoView({ behavior: 'smooth' });
 }
