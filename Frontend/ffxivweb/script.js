@@ -3,7 +3,7 @@ const bosses = {
         {
             name: "Oppressor",
             description: "Oppressor is a mechanical boss in Alexander's raid series. It uses devastating tank busters and AoE attacks, requiring careful positioning and coordination between healers and tanks.",
-            image: "/Frontend/imges/boss/opessor.jpg",
+            image: "/Frontend/imges/boss/heavensward/opessor.jpg",
             skills: [
                 { 
                     name: "Mega Beam", 
@@ -26,6 +26,7 @@ const bosses = {
         {
             name: "Living Liquid",
             description: "Living Liquid features a unique transformation mechanic. It requires players to adapt to changing forms, which include a hand, a leg, and even a large tornado form.",
+            image: "/Frontend/imges/boss/heavensward/living.png",
             skills: [
                 { 
                     name: "Fluid Strike", 
@@ -48,6 +49,7 @@ const bosses = {
         {
             name: "Brute Justice",
             description: "Brute Justice is a fusion of the bosses Blaster, Brawler, Vortexer, and Swindler, combining their abilities into a powerful new form.",
+            image: "/Frontend/imges/boss/heavensward/Brute.jpg",
             skills: [
                 { 
                     name: "Apocalyptic Ray", 
@@ -70,6 +72,7 @@ const bosses = {
         {
             name: "Cruise Chaser",
             description: "Cruise Chaser is a mechanical boss equipped with advanced weaponry and powerful lasers. It transforms into a powerful mecha, increasing its mobility and attack speed.",
+            image: "/Frontend/imges/boss/heavensward/Cruise Chaser.jpg",
             skills: [
                 { 
                     name: "Photon", 
@@ -96,7 +99,7 @@ const bosses = {
         {
             name: "Omega",
             description: "Omega is a powerful mechanical being with the ability to replicate itself and others. Its raid involves challenging mechanics that test the coordination of the party.",
-            image: "/Frontend/imges/boss/omega.jpg",
+            image: "/Frontend/imges/boss/stormblood/omega.jpg",
             skills: [
                 { 
                     name: "Hyper Pulse", 
@@ -120,7 +123,7 @@ const bosses = {
         {
             name: "Exdeath",
             description: "Exdeath appears in the Omega raid series, bringing his signature attacks from earlier Final Fantasy games, including the infamous 'Void' mechanic.",
-            image: "/Frontend/imges/boss/exdeath.jpg",
+            image: "/Frontend/imges/boss/stormblood/Exdeath.webp",
             skills: [
                 { 
                     name: "Void", 
@@ -143,7 +146,7 @@ const bosses = {
         {
             name: "Kefka",
             description: "Kefka is the final boss of one of the Omega tiers. Known for his chaotic and unpredictable attacks, the fight challenges players with random debuffs and AoE patterns.",
-            image: "/Frontend/imges/boss/kefka.jpg",
+            image: "/Frontend/imges/boss/stormblood/kefka.avif",
             skills: [
                 { 
                     name: "Light of Judgment", 
@@ -166,7 +169,7 @@ const bosses = {
         {
             name: "Chaos",
             description: "Chaos is another boss in the Omega series, presenting a variety of elemental-based attacks that force players to adapt to shifting elements during the fight.",
-            image: "/Frontend/imges/boss/chaos.jpg",
+            image: "/Frontend/imges/boss/stormblood/Chaos.webp",
             skills: [
                 { 
                     name: "Flame", 
@@ -191,7 +194,7 @@ const bosses = {
         {
             name: "Eden Prime",
             description: "Eden Prime is the first boss in the Eden raid series, using a combination of light and dark attacks to challenge players with positional mechanics.",
-            image: "/Frontend/imges/boss/eden-prime.jpg",
+            image: "/Frontend/imges/boss/shadow/Eden Prime.jpeg",
             skills: [
                 { 
                     name: "Eternal Breath", 
@@ -214,7 +217,7 @@ const bosses = {
         {
             name: "Voidwalker",
             description: "Voidwalker is a boss that requires players to manage darkness-infused mechanics and handle split damage across the party.",
-            image: "/Frontend/imges/boss/voidwalker.jpg",
+            image: "/Frontend/imges/boss/shadow/Voidwalker.webp",
             skills: [
                 { 
                     name: "Void Arrow", 
@@ -237,7 +240,7 @@ const bosses = {
         {
             name: "Ramuh",
             description: "Ramuh appears as a reimagined version in the Eden raids, combining his lightning-based attacks with new mechanics involving tethers and orbs.",
-            image: "/Frontend/imges/boss/ramuh.jpg",
+            image: "/Frontend/imges/boss/shadow/Ramuh.webp",
             skills: [
                 { 
                     name: "Judgment Bolt", 
@@ -260,7 +263,7 @@ const bosses = {
         {
             name: "Shiva",
             description: "Shiva is the final boss in one of the Eden tiers, presenting players with ice and mirror-based mechanics that reflect and duplicate attacks.",
-            image: "/Frontend/imges/boss/shiva.jpg",
+            image: "/Frontend/imges/boss/shadow/shiva.webp",
             skills: [
                 { 
                     name: "Mirror, Mirror", 
@@ -285,7 +288,7 @@ const bosses = {
         {
             name: "Hesperos",
             description: "Hesperos is the first boss of the Pandæmonium raid series. His fight is themed around theater, with dramatic attack patterns that require precise movement.",
-            image: "/Frontend/imges/boss/hesperos.jpg",
+            image: "/Frontend/imges/boss/endwalker/Hesperos.webp",
             skills: [
                 { 
                     name: "Decollation", 
@@ -308,7 +311,7 @@ const bosses = {
         {
             name: "Phoinix",
             description: "Phoinix uses a combination of fire and resurrection mechanics, forcing players to carefully handle phase transitions to avoid being overwhelmed.",
-            image: "/Frontend/imges/boss/phoinix.jpg",
+            image: "/Frontend/imges/boss/endwalker/Phoinix.jpg",
             skills: [
                 { 
                     name: "Wings of Flame", 
@@ -331,7 +334,7 @@ const bosses = {
         {
             name: "Erichthonios",
             description: "Erichthonios is a towering foe who challenges players with brute force and multi-target attacks. Coordination and timing are key to surviving his enrage.",
-            image: "/Frontend/imges/boss/erichthonios.jpg",
+            image: "/Frontend/imges/boss/endwalker/Erichthonios.jpg",
             skills: [
                 { 
                     name: "Aetherial Shackles", 
@@ -354,7 +357,7 @@ const bosses = {
         {
             name: "Lahabrea",
             description: "Lahabrea is the final boss of the Pandæmonium raid, presenting a series of memory and flame-based mechanics that test the reflexes and coordination of the party.",
-            image: "/Frontend/imges/boss/lahabrea.jpg",
+            image: "/Frontend/imges/boss/endwalker/Lahabrea.jpg",
             skills: [
                 { 
                     name: "Pyretic Memory", 
@@ -380,7 +383,7 @@ const bosses = {
         {
             name: "Tlaloc",
             description: "Tlaloc is the first boss in the Dawntrail raid series, drawing power from storms and weather-based mechanics. Players need to adapt to changing environmental conditions to avoid devastating attacks.",
-            image: "/Frontend/imges/boss/tlaloc.jpg",
+            image: "/Frontend/imges/boss/dawn/Tlaloc.jpg",
             skills: [
                 { 
                     name: "Storm Surge", 
@@ -403,7 +406,7 @@ const bosses = {
         {
             name: "Quetzalcoatl",
             description: "Quetzalcoatl, the thunderbird, rains lightning and wind-based attacks on the raid. The fight features large-scale AoEs that must be mitigated and dodged with precise movement.",
-            image: "/Frontend/imges/boss/quetzalcoatl.jpg",
+            image: "/Frontend/imges/boss/dawn/Quetzalcoatl.webp",
             skills: [
                 { 
                     name: "Lightning Storm", 
@@ -426,7 +429,7 @@ const bosses = {
         {
             name: "Ix Chel",
             description: "Ix Chel is a healer-type boss that tests the raid's coordination with healing debuffs and phases that require coordinated dispels and interrupts.",
-            image: "/Frontend/imges/boss/ixchel.jpg",
+            image: "/Frontend/imges/boss/dawn/Ix Chel.jpg",
             skills: [
                 { 
                     name: "Curse of Healing", 
@@ -449,7 +452,7 @@ const bosses = {
         {
             name: "Ah Puch",
             description: "Ah Puch, the god of death, uses mechanics centered around curses and deathly shadows. Players must manage curse timers and coordinate their movements to survive his onslaught.",
-            image: "/Frontend/imges/boss/ahpuch.jpg",
+            image: "/Frontend/imges/boss/dawn/Ah Puch.jfif",
             skills: [
                 { 
                     name: "Curse of Death", 
