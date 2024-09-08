@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFXIV Raid Bosses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#raid-bosses">Raid Bosses</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 id="home">FFXIV Raid Bosses</h1>
+        <p>Select an expansion to view its raid bosses:</p>
+        <div class="buttons">
+            <button onclick="showBosses('alexander')">Alexander (Heavensward)</button>
+            <button onclick="showBosses('omega')">Omega (Stormblood)</button>
+            <button onclick="showBosses('eden')">Eden (Shadowbringers)</button>
+            <button onclick="showBosses('pandaemonium')">Pandæmonium (Endwalker)</button>
+        </div>
+        <div id="boss-list"></div>
+        <div id="boss-details"></div> <!-- To display details about the boss -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 FFXIV Raid Guide. All Rights Reserved.</p>
+        <p><a href="#home">Back to top</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
