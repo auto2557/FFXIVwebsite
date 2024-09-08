@@ -494,7 +494,7 @@ function showBosses(expansion) {
     
     bossList.innerHTML += listHtml;
 
-    // Scroll to the boss list section
+    
     bossList.scrollIntoView({ behavior: 'smooth' });
 }
 
@@ -520,6 +520,6 @@ function showBossDetails(expansion, index) {
         bossDetails.innerHTML += skillsHtml;
     }
 
-    // Scroll to the boss details section
+    
     bossDetails.scrollIntoView({ behavior: 'smooth' });
 }
