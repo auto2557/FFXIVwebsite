@@ -3,6 +3,7 @@ const bosses = {
         {
             name: "Oppressor",
             description: "Oppressor is a mechanical boss in Alexander's raid series. It uses devastating tank busters and AoE attacks, requiring careful positioning and coordination between healers and tanks.",
+            image: "/Frontend/imges/boss/opessor.jpg",
             skills: [
                 { 
                     name: "Mega Beam", 
@@ -95,66 +96,282 @@ const bosses = {
         {
             name: "Omega",
             description: "Omega is a powerful mechanical being with the ability to replicate itself and others. Its raid involves challenging mechanics that test the coordination of the party.",
-            image: "/Frontend/imges/boss/omega.jpg"
+            image: "/Frontend/imges/boss/omega.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Exdeath",
             description: "Exdeath appears in the Omega raid series, bringing his signature attacks from earlier Final Fantasy games, including the infamous 'Void' mechanic.",
-            image: "/Frontend/imges/boss/exdeath.jpg"
+            image: "/Frontend/imges/boss/exdeath.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Kefka",
             description: "Kefka is the final boss of one of the Omega tiers. Known for his chaotic and unpredictable attacks, the fight challenges players with random debuffs and AoE patterns.",
-            image: "/Frontend/imges/boss/kefka.jpg"
+            image: "/Frontend/imges/boss/kefka.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Chaos",
             description: "Chaos is another boss in the Omega series, presenting a variety of elemental-based attacks that force players to adapt to shifting elements during the fight.",
-            image: "/Frontend/imges/boss/chaos.jpg"
+            image: "/Frontend/imges/boss/chaos.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         }
     ],
     eden: [
         {
             name: "Eden Prime",
             description: "Eden Prime is the first boss in the Eden raid series, using a combination of light and dark attacks to challenge players with positional mechanics.",
-            image: "/Frontend/imges/boss/eden-prime.jpg"
+            image: "/Frontend/imges/boss/eden-prime.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Voidwalker",
             description: "Voidwalker is a boss that requires players to manage darkness-infused mechanics and handle split damage across the party.",
-            image: "/Frontend/imges/boss/voidwalker.jpg"
+            image: "/Frontend/imges/boss/voidwalker.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Ramuh",
             description: "Ramuh appears as a reimagined version in the Eden raids, combining his lightning-based attacks with new mechanics involving tethers and orbs.",
-            image: "/Frontend/imges/boss/ramuh.jpg"
+            image: "/Frontend/imges/boss/ramuh.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Shiva",
             description: "Shiva is the final boss in one of the Eden tiers, presenting players with ice and mirror-based mechanics that reflect and duplicate attacks.",
-            image: "/Frontend/imges/boss/shiva.jpg"
+            image: "/Frontend/imges/boss/shiva.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         }
     ],
     pandaemonium: [
         {
             name: "Hesperos",
             description: "Hesperos is the first boss of the Pandæmonium raid series. His fight is themed around theater, with dramatic attack patterns that require precise movement.",
-            image: "/Frontend/imges/boss/hesperos.jpg"
+            image: "/Frontend/imges/boss/hesperos.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Phoinix",
             description: "Phoinix uses a combination of fire and resurrection mechanics, forcing players to carefully handle phase transitions to avoid being overwhelmed.",
-            image: "/Frontend/imges/boss/phoinix.jpg"
+            image: "/Frontend/imges/boss/phoinix.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Erichthonios",
             description: "Erichthonios is a towering foe who challenges players with brute force and multi-target attacks. Coordination and timing are key to surviving his enrage.",
-            image: "/Frontend/imges/boss/erichthonios.jpg"
+            image: "/Frontend/imges/boss/erichthonios.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Lahabrea",
             description: "Lahabrea is the final boss of the Pandæmonium raid, presenting a series of memory and flame-based mechanics that test the reflexes and coordination of the party.",
-            image: "/Frontend/imges/boss/lahabrea.jpg"
+            image: "/Frontend/imges/boss/lahabrea.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         }
     
     ],
@@ -162,22 +379,94 @@ const bosses = {
         {
             name: "Tlaloc",
             description: "Tlaloc is the first boss in the Dawntrail raid series, drawing power from storms and weather-based mechanics. Players need to adapt to changing environmental conditions to avoid devastating attacks.",
-            image: "/Frontend/imges/boss/tlaloc.jpg"
+            image: "/Frontend/imges/boss/tlaloc.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Quetzalcoatl",
             description: "Quetzalcoatl, the thunderbird, rains lightning and wind-based attacks on the raid. The fight features large-scale AoEs that must be mitigated and dodged with precise movement.",
-            image: "/Frontend/imges/boss/quetzalcoatl.jpg"
+            image: "/Frontend/imges/boss/quetzalcoatl.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Ix Chel",
             description: "Ix Chel is a healer-type boss that tests the raid's coordination with healing debuffs and phases that require coordinated dispels and interrupts.",
-            image: "/Frontend/imges/boss/ixchel.jpg"
+            image: "/Frontend/imges/boss/ixchel.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         },
         {
             name: "Ah Puch",
             description: "Ah Puch, the god of death, uses mechanics centered around curses and deathly shadows. Players must manage curse timers and coordinate their movements to survive his onslaught.",
-            image: "/Frontend/imges/boss/ahpuch.jpg"
+            image: "/Frontend/imges/boss/ahpuch.jpg",
+            skills: [
+                { 
+                    name: "Photon", 
+                    description: "Targets a random player with a high-damage beam attack."
+                },
+                { 
+                    name: "Spin Crusher", 
+                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                },
+                { 
+                    name: "Laser Sword", 
+                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                },
+                { 
+                    name: "Optical Sight", 
+                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                }
+            ]
         }
     ]
 };
