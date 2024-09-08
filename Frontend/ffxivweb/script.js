@@ -53,7 +53,11 @@ function showBossDetails(expansion, index) {
     
     bossDetails.innerHTML = `
         <h3>${boss.name}</h3>
-        <img src="${boss.image}" alt="${boss.name}" style="max-width: 100%; height: auto;">
-        <p>${boss.description}</p>
+        <div class="boss-details-container">
+            <img src="${boss.image}" alt="${boss.name}" class="boss-image">
+            <p>${boss.description}</p>
+        </div>
     `;
 }
+
+

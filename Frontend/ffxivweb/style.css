@@ -10,6 +10,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    padding-bottom: 100px;
 }
 
 /* Navigation Bar */
@@ -114,10 +115,24 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.boss-details {
-    padding: 10px;
-    background-color: #f0f0f0;
-    margin-top: 5px;
-    border-left: 4px solid #333;
+.boss-details-container {
+    display: flex;
+    flex-direction: column; /* จัดเรียงแนวตั้งให้รูปอยู่ข้างบน */
+    align-items: center; /* จัดกึ่งกลาง */
 }
+
+.boss-image {
+    max-width: 100%; /* ปรับขนาดรูปให้อยู่ในพื้นที่ที่เหมาะสม */
+    height: auto;
+    margin-bottom: 15px; /* เพิ่มช่องว่างระหว่างรูปกับคำอธิบาย */
+}
+
+.boss-details p {
+    text-align: justify; /* จัดข้อความให้อ่านง่ายขึ้น */
+    margin-top: 15px; /* เพิ่มช่องว่างด้านบนคำอธิบาย */
+    color: #333; /* ตรวจสอบว่ามีสีข้อความที่มองเห็นได้ */
+    font-size: 16px; /* ปรับขนาดตัวอักษรให้ชัดเจน */
+}
+
+
 
