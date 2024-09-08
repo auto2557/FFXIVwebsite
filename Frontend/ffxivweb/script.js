@@ -252,8 +252,8 @@ const bosses = {
                     description: "Summons clones to assist."
                 },
                 { 
-                    name: "Optical Sight", 
-                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                    name: "Shock Strike", 
+                    description: "Random lightning AoE."
                 }
             ]
         },
@@ -263,20 +263,20 @@ const bosses = {
             image: "/Frontend/imges/boss/shiva.jpg",
             skills: [
                 { 
-                    name: "Photon", 
-                    description: "Targets a random player with a high-damage beam attack."
+                    name: "Mirror, Mirror", 
+                    description: "Reflects incoming attacks."
                 },
                 { 
-                    name: "Spin Crusher", 
-                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                    name: "Diamond Dust", 
+                    description: "Freezes players in place."
                 },
                 { 
-                    name: "Laser Sword", 
-                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                    name: "Mirror Arrow", 
+                    description: "Targeted AoE on random players."
                 },
                 { 
-                    name: "Optical Sight", 
-                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                    name: "Absolute Zero", 
+                    description: "Room-wide AoE."
                 }
             ]
         }
@@ -288,20 +288,20 @@ const bosses = {
             image: "/Frontend/imges/boss/hesperos.jpg",
             skills: [
                 { 
-                    name: "Photon", 
-                    description: "Targets a random player with a high-damage beam attack."
+                    name: "Decollation", 
+                    description: "Linear AoE."
                 },
                 { 
-                    name: "Spin Crusher", 
-                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                    name: "Hell Skewer", 
+                    description: "Targeted AoE spears."
                 },
                 { 
-                    name: "Laser Sword", 
-                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                    name: "Tetraflare", 
+                    description: "Cross-shaped AoE."
                 },
                 { 
-                    name: "Optical Sight", 
-                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                    name: "Curtain Call", 
+                    description: "Phase transition requiring mitigation."
                 }
             ]
         },
@@ -311,20 +311,20 @@ const bosses = {
             image: "/Frontend/imges/boss/phoinix.jpg",
             skills: [
                 { 
-                    name: "Photon", 
-                    description: "Targets a random player with a high-damage beam attack."
+                    name: "Wings of Flame", 
+                    description: "Fire-based room-wide AoE."
                 },
                 { 
-                    name: "Spin Crusher", 
-                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                    name: "Bright Fire", 
+                    description: "Targets random players with heavy damage."
                 },
                 { 
-                    name: "Laser Sword", 
-                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                    name: "Rebirth", 
+                    description: "Heals itself after phase transition."
                 },
                 { 
-                    name: "Optical Sight", 
-                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                    name: "Ashen Eyes", 
+                    description: "Random player AoE debuff."
                 }
             ]
         },
@@ -334,20 +334,20 @@ const bosses = {
             image: "/Frontend/imges/boss/erichthonios.jpg",
             skills: [
                 { 
-                    name: "Photon", 
-                    description: "Targets a random player with a high-damage beam attack."
+                    name: "Aetherial Shackles", 
+                    description: "Chains two players together."
                 },
                 { 
-                    name: "Spin Crusher", 
-                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                    name: "Lava Flow", 
+                    description: "Line AoE that deals damage in a specific pattern."
                 },
                 { 
-                    name: "Laser Sword", 
-                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                    name: "Gaol of Fire", 
+                    description: "High-damage trap."
                 },
                 { 
-                    name: "Optical Sight", 
-                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                    name: "Purgation", 
+                    description: "Room-wide enrage."
                 }
             ]
         },
@@ -357,20 +357,20 @@ const bosses = {
             image: "/Frontend/imges/boss/lahabrea.jpg",
             skills: [
                 { 
-                    name: "Photon", 
-                    description: "Targets a random player with a high-damage beam attack."
+                    name: "Pyretic Memory", 
+                    description: " A phase mechanic involving memory and fire."
                 },
                 { 
-                    name: "Spin Crusher", 
-                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                    name: "Ignition", 
+                    description: "Massive AoE requiring coordinated movement."
                 },
                 { 
-                    name: "Laser Sword", 
-                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                    name: "Flame of Agony", 
+                    description: "Tank buster attack."
                 },
                 { 
-                    name: "Optical Sight", 
-                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                    name: "Inferno Cage", 
+                    description: "Traps players in cages."
                 }
             ]
         }
@@ -383,20 +383,20 @@ const bosses = {
             image: "/Frontend/imges/boss/tlaloc.jpg",
             skills: [
                 { 
-                    name: "Photon", 
-                    description: "Targets a random player with a high-damage beam attack."
+                    name: "Storm Surge", 
+                    description: " Large AoE based on weather conditions."
                 },
                 { 
-                    name: "Spin Crusher", 
-                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                    name: "Thunderstrike", 
+                    description: "Lightning attack that stuns."
                 },
                 { 
-                    name: "Laser Sword", 
-                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                    name: "Cyclone", 
+                    description: "A rotating knockback attack."
                 },
                 { 
-                    name: "Optical Sight", 
-                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                    name: "Tempest Roar", 
+                    description: "Room-wide AoE."
                 }
             ]
         },
@@ -406,20 +406,20 @@ const bosses = {
             image: "/Frontend/imges/boss/quetzalcoatl.jpg",
             skills: [
                 { 
-                    name: "Photon", 
-                    description: "Targets a random player with a high-damage beam attack."
+                    name: "Lightning Storm", 
+                    description: "Chain lightning mechanic."
                 },
                 { 
-                    name: "Spin Crusher", 
-                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                    name: "Wind Blast", 
+                    description: "Knockback AoE."
                 },
                 { 
-                    name: "Laser Sword", 
-                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                    name: "Thunder Crash", 
+                    description: "Random player target AoE."
                 },
                 { 
-                    name: "Optical Sight", 
-                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                    name: "Tornado", 
+                    description: "Massive wind AoE."
                 }
             ]
         },
@@ -429,20 +429,20 @@ const bosses = {
             image: "/Frontend/imges/boss/ixchel.jpg",
             skills: [
                 { 
-                    name: "Photon", 
-                    description: "Targets a random player with a high-damage beam attack."
+                    name: "Curse of Healing", 
+                    description: "Debuff that reduces healing."
                 },
                 { 
-                    name: "Spin Crusher", 
-                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                    name: "Lunar Blessing", 
+                    description: "Buff that enhances enemies."
                 },
                 { 
-                    name: "Laser Sword", 
-                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                    name: "Moonsong", 
+                    description: "Room-wide enrage phase."
                 },
                 { 
-                    name: "Optical Sight", 
-                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                    name: "Light of Healing", 
+                    description: "Random party-wide healing debuff."
                 }
             ]
         },
@@ -452,32 +452,30 @@ const bosses = {
             image: "/Frontend/imges/boss/ahpuch.jpg",
             skills: [
                 { 
-                    name: "Photon", 
-                    description: "Targets a random player with a high-damage beam attack."
+                    name: "Curse of Death", 
+                    description: "Applies a death timer debuff."
                 },
                 { 
-                    name: "Spin Crusher", 
-                    description: "A spinning melee attack that deals massive damage to players in close proximity."
+                    name: "Shadow Claw", 
+                    description: "Random player target claw attack."
                 },
                 { 
-                    name: "Laser Sword", 
-                    description: "A wide sweeping attack that hits players in front of Cruise Chaser."
+                    name: "Deathly Embrace", 
+                    description: "Wide AoE that must be mitigated."
                 },
                 { 
-                    name: "Optical Sight", 
-                    description: "Cruise Chaser locks onto a random player and fires a powerful laser, requiring the group to stack together."
+                    name: "Nightfall", 
+                    description: "Arena-wide mechanic involving shadow zones."
                 }
             ]
         }
     ]
 };
 
-// Function to display the list of bosses when an expansion is selected
 function showBosses(expansion) {
     const bossList = document.getElementById('boss-list');
     const bossDetails = document.getElementById('boss-details');
     
-    // Clear the previous boss details and list when selecting a new expansion
     bossList.innerHTML = '';
     bossDetails.innerHTML = '';
     
@@ -494,11 +492,11 @@ function showBosses(expansion) {
     bossList.innerHTML += listHtml;
 }
 
-// Function to display the detailed boss information, including skills
+
 function showBossDetails(expansion, index) {
     const bossDetails = document.getElementById('boss-details');
     
-    // Clear the previous boss details
+
     bossDetails.innerHTML = '';
     
     const boss = bosses[expansion][index];
@@ -509,7 +507,7 @@ function showBossDetails(expansion, index) {
         <p>${boss.description}</p>
     `;
     
-    // Show boss skills if available
+
     if (boss.skills) {
         let skillsHtml = '<h4>Skills:</h4><ul>';
         boss.skills.forEach(skill => {
