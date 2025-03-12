@@ -1,3 +1,14 @@
+// โหลดเสียงเพลงที่ต้องการ
+const backgroundMusic = new Audio("background.mp3");
+
+// ตั้งค่าให้เพลงวนซ้ำ (loop)
+backgroundMusic.loop = true;
+
+// เล่นเพลงเมื่อโหลดหน้าเว็บ
+window.addEventListener("load", function () {
+    backgroundMusic.play();
+});
+
 const quotes = {
     aries: ["จงกล้าหาญและมุ่งมั่นต่อเป้าหมาย", "อย่ากลัวที่จะลองสิ่งใหม่ ๆ"],
     taurus: ["ความพยายามไม่เคยทำให้ใครล้มเหลว", "อดทนเป็นกุญแจสู่ความสำเร็จ"],
@@ -13,7 +24,13 @@ const quotes = {
     pisces: ["จินตนาการคือพลังที่ยิ่งใหญ่", "จงเชื่อมั่นในความฝันของคุณ"]
 };
 
+// โหลดเสียงคลิก
+const clickSound = new Audio("Ding.mp3");
+
 document.getElementById("randomQuoteBtn").addEventListener("click", function () {
+    // เล่นเสียงเมื่อกดปุ่ม
+    clickSound.play();
+
     const zodiac = document.getElementById("zodiacSelect").value;
     const quoteDisplay = document.getElementById("quoteDisplay");
 
